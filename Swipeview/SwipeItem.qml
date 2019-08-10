@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtGraphicalEffects 1.12
 
 Item {
-    property int size: 300
+    property int size
 
     Rectangle {
         id: irect_p
@@ -23,7 +23,7 @@ Item {
             },
             State {
                 name: "not-clicked"
-                PropertyChanges { target: irect_p; color: 'yellow' }
+                PropertyChanges { target: irect_p; color: 'orange' }
             }
 
         ]
@@ -33,9 +33,9 @@ Item {
         anchors.fill: irect_p
         horizontalOffset: 0
         verticalOffset: 0
-        radius: 70.0
+        radius: 50.0
         samples: 17
-        color: "#25000000"
+        color: "#40000000"
         source: irect_p
     }
 }
