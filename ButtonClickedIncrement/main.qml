@@ -13,7 +13,8 @@ Window {
     Rectangle {
         id: rect
         anchors.centerIn: parent
-        width: 300; height: 100
+        width: appwindow.width/2.5; height: appwindow.height/5
+        radius: 10
         color: "pink"
         opacity: 0.8
         border.color: "white"
@@ -24,7 +25,7 @@ Window {
         text: icount
         anchors.centerIn: rect
         font.family: "Helvetica"
-        font.pointSize: 40
+        font.pointSize: appwindow.height > appwindow.width ? appwindow.width/10 : appwindow.height/10
         color: "white"
     }
 
