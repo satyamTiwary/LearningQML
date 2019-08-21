@@ -1,0 +1,9 @@
+
+*.o
+*.stash
+*.plist
+*.lproj
+build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/Repeater.app/Contents/PkgInfo
+build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/Repeater.app/Contents/MacOS/Repeater
+build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/qrc_qml.cpp
+build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/Makefile

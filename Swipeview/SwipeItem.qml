@@ -11,9 +11,8 @@ Item {
         state: 'clicked'
 
         MouseArea {
-            id: mousearea
             anchors.fill: parent
-            onClicked: irect_p.state == 'clicked' ? irect_p.state = "not-clicked" : irect_p.state = 'clicked'
+            onClicked: { irect_p.state == 'clicked' ? irect_p.state = "not-clicked" : irect_p.state = 'clicked' }
         }
 
         states: [
@@ -25,7 +24,6 @@ Item {
                 name: "not-clicked"
                 PropertyChanges { target: irect_p; color: 'orange' }
             }
-
         ]
     }
 
