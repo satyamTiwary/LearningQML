@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>UI/main.qml</file>
+        <file>UI/ToggleSwitch.qml</file>
+        <file>Content/background.png</file>
+        <file>Content/knob.png</file>
+    </qresource>
+</RCC>

@@ -7,3 +7,11 @@ build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/Repeater.app/Contents/PkgInfo
 build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/Repeater.app/Contents/MacOS/Repeater
 build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/qrc_qml.cpp
 build-Repeater-Desktop_Qt_5_12_3_clang_64bit-Debug/Makefile
+build-State-Desktop_Qt_5_12_3_clang_64bit-Debug/Makefile
+build-State-Desktop_Qt_5_12_3_clang_64bit-Debug/qrc_qml.cpp
+build-State-Desktop_Qt_5_12_3_clang_64bit-Debug/State.app/Contents/MacOS/State
+build-State-Desktop_Qt_5_12_3_clang_64bit-Debug/State.app/Contents/PkgInfo
+build-ToggleSwitch-Desktop_Qt_5_12_3_clang_64bit-Debug/Makefile
+build-ToggleSwitch-Desktop_Qt_5_12_3_clang_64bit-Debug/qrc_qml.cpp
+build-ToggleSwitch-Desktop_Qt_5_12_3_clang_64bit-Debug/ToggleSwitch.app/Contents/MacOS/ToggleSwitch
+build-ToggleSwitch-Desktop_Qt_5_12_3_clang_64bit-Debug/ToggleSwitch.app/Contents/PkgInfo
