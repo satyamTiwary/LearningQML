@@ -7,8 +7,12 @@ Window {
     height: 480
     title: qsTr("Hello World")
 
-    ToggleSwitch {
-        on: true
+    Row {
         anchors.centerIn: parent
+
+        ToggleSwitch {
+            id: tswitch
+            on: true
+        }
     }
 }
